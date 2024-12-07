@@ -5,7 +5,7 @@ export default function MyProfile(){
             <h1 className="text-x1 font-bold text-amber-700">Profile</h1>
             <ul className="list-disc list-inside"> </ul>
             <h1>
-             Pattarapong Tangngam
+            Name: Pattarapong Tangngam
                   </h1>
                <strong>
                   026640491611-3
