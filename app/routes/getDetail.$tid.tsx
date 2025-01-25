@@ -25,7 +25,7 @@ function GetDetaol() {
     return (
         <div className="m-0">
             <Mymenu />
-            <h1 className="text-xl">ติดต่อฉัน</h1>
+            <h1 className="text-xl">รายละเอียด</h1>
             <div className="flex flex-row justify-center">
                 {
                     tdItem.length === 0 ?  
@@ -35,13 +35,23 @@ function GetDetaol() {
                     :
                 (
                     <>
-                รหัสข้อมูล: {tdItem[0].id}
-                <br />
-                หัวข้อ:{tdItem[0].title}<br />
-                วันที่สร้าง: {tdItem[0].created}<br />
-                สถานะ:{tdItem[0].completed}
-                <br />
-                </>
+        <img 
+             src={tdItem[0].coverImage} 
+             alt="ภาพประกอบ" 
+             style={{ maxWidth: "300px", height: "auto" }} 
+        />
+        <br /><br />
+             รหัสข้อมูล: {tdItem[0].id}
+        <br /><br />
+             หัวข้อ: {tdItem[0].title}
+        <br /><br />
+            วันที่สร้าง: {tdItem[0].created}
+        <br /><br />
+             สถานะ: {tdItem[0].completed ? "เสร็จสิ้น" : "ยังไม่เสร็จสิ้น"}
+        <br /><br />
+</>
+
+                
                 )
             }
             </div>
