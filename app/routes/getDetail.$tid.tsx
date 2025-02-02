@@ -1,6 +1,6 @@
 import { useParams,useNavigate } from "@remix-run/react";
-import Mymenu from "./templates/mymenu";
-import Myfooter from "./templates/myfooter";
+import Mymenu from "./templates/Mymenu";
+import Myfooter from "./templates/Myfooter";
 import { toDoItems } from "./toDoList";
 
 
@@ -11,7 +11,7 @@ function GetDetaol() {
     const navigate = useNavigate();
 
     const tdItem = toDoItems.filter((item) =>
-        item.id == toDoId
+        item.id == Number (toDoId)
     
 );
     console.log(tdItem);

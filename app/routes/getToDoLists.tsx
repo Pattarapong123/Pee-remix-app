@@ -1,6 +1,6 @@
 import { toDoItems } from "./toDoList";
-import Mymenu from "./templates/mymenu";
-import Myfooter from "./templates/myfooter";
+import Mymenu from "./templates/Mymenu";
+import Myfooter from "./templates/Myfooter";
 
 
 function CompletedCheck({ c }: { c: boolean }) {

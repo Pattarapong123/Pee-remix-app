@@ -1,5 +1,5 @@
-import Mymenu from "./templates/mymenu";
-import Myfooter from "./templates/myfooter";
+import Mymenu from "./templates/Mymenu";
+import Myfooter from "./templates/Myfooter";
 import { useState } from "react";
 
 function MyContact (){
