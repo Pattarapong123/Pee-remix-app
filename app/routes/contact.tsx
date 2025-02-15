@@ -8,8 +8,12 @@ function MyContact (){
             <Mymenu />
             <h1 className="text-xl">ติดต่อฉัน</h1>
             <div className="flex flex-row justify-center">
-                ภัทรพงศ์ แตงงาม<br/>
-                Pattarapong Tangngam<br/>
+                ชื่อ:ภัทรพงศ์ แตงงาม<br/>
+                Name:Pattarapong Tangngam<br/>
+                รหัสนักศึกษา:026640491611-3 <br />
+                ชื่อเล่น:พี
+                ระดับการศึกษา:ปี4 <br />
+                สาขา:เทคโนโลยีสารสนเทศ <br />
                 </div>
                 <Myfooter />
             </div>

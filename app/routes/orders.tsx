@@ -44,6 +44,7 @@ function Orders() {
                             <p>รหัสคำสั่งซื้อ: {item.orderId}</p>
                             <p>วันที่สั่งซื้อ: {item.orderDate}</p>
                             <p>สถานะ: {item.orderStatus}</p>
+                            <p>สถานะการจัดส่ง:{item.status}</p>
                             <div className="mt-1 p-3 bg-teal-200 border border-teal-800 rounded text-center">
                                 <a href={`/order/${item.orderId}`}>
                                     รายละเอียด
